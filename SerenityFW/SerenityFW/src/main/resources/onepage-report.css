@@ -1,0 +1,76 @@
+.middlecontent {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.story-title {
+    width: 100%;
+}
+
+.step-table {
+    width: 100%;
+}
+
+.example-table table {
+    max-width: 100%;
+    width: 100%;
+}
+
+.step-description-column {
+    width: 150px !important;
+}
+
+.screenshot {
+    width: 800px !important;
+    height: auto;
+}
+
+.step-table tr.step-titles th:nth-child(1){
+    width: 50px !important;
+}
+
+.step-table tr.step-titles th:nth-child(3){
+    width: 820px !important;
+}
+
+.imgPreviewContainer{
+    display: none !important;
+}
+
+table.step-table-nested {
+    display: block !important;
+}
+
+.piece-of-evidence .rest-query-details .collapse{
+    display: block !important;
+    visibility: visible !important;
+}
+
+.piece-of-evidence .rest-query-details .collapse .card-body{
+    width: 400px;
+}
+
+.piece-of-evidence .rest-query-details .collapse .card-body pre{
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+td.error-message-cell .collapse {
+    display: block !important;
+    visibility: visible !important;
+}
+
+@media print {
+    a[href]:after {
+        display: none;
+    }
+
+    .step-table table[id*='stepSection'] tr td:nth-child(3){
+        width: 820px !important;
+    }
+
+    .screenshot {
+        width: 800px !important;
+        height: auto;
+    }
+}
