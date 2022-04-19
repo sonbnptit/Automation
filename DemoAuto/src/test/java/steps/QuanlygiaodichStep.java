@@ -18,10 +18,6 @@ public class QuanlygiaodichStep extends CommonScenarioSteps {
     @Steps
     EmspLoginStep emspLoginStep;
 
-    public void SendRequestAndGetResponseForeMSP(CaseInsensitiveMapObjWrapper<SearchingKeywordObject> data){
-        WebserviceClient client = new WebserviceClient();
-        client.SendRequestAndGetResponseForeMSP(data.dt().getRole(),data.dt().getRole(),data.dt().getRole());
-    }
 
     public void SearchingFunction(CaseInsensitiveMapObjWrapper<SearchingKeywordObject> data){
         emspLoginStep.LoginFunction(data.dt().getRole());

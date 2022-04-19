@@ -10,8 +10,5 @@
         <module name="SerenityFWVin3s" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SCFProject" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,13 +1,16 @@
 package Webservice;
 
 import com.vin3s.auto.dataobject.Constant;
+import com.vin3s.auto.serenity.CommonScenarioSteps;
+import com.vin3s.auto.utils.CaseInsensitiveMapObjWrapper;
 import com.vin3s.auto.utils.Commons;
+import com.vin3s.auto.dataobject.BaterryLeasingCreateObject;
 import com.vin3s.auto.utils.ConfigController;
 import org.json.JSONObject;
 import com.vin3s.auto.subprocess.webservice.SoapClient;
 
 
-public class WebserviceClient {
+public class WebserviceClient extends CommonScenarioSteps {
     ConfigController cc = new ConfigController();
 
 
@@ -26,36 +29,36 @@ public class WebserviceClient {
         }
     }
 
-    public void SendRequestAndGetResponseForeMSP(String contractNo, String fullName, String email){
+    public void sendAPIBaterryLeasingCreate(CaseInsensitiveMapObjWrapper<BaterryLeasingCreateObject> data){
         String endPointVFGateway = cc.getProperty("endpoint.battery_leasing_create");
         String messsageRequest = "{\n" +
                 "    \"command\": 0,\n" +
-                "    \"contractNo\": \"+contractNo+\",\n" +
-                "    \"fullName\": \"CAPP UAT11\",\n" +
-                "    \"email\": \"capp.uat11@gmail.com\",\n" +
-                "    \"phoneNumber\": \"8367201776\",\n" +
-                "    \"idNumber\": \"8367201776\",\n" +
-                "    \"address\": \"Ocean Park_nhimt\",\n" +
-                "    \"customerId\": \"ad86f9c2-312f-4ef3-a4b2-a826c93d560c\",\n" +
-                "    \"sapCustomerId\": \"2600166001\",\n" +
-                "    \"vehicleId\": \"RLLV5AFA5NV000911\",\n" +
-                "    \"vehicleType\": \"Car\",\n" +
-                "    \"vehicleModel\": \"VF e34\",\n" +
+                "    \"contractNo\": \""+data.dt().getContractNo()+"\",\n" +
+                "    \"fullName\": \""+data.dt().getFullName()+"\",\n" +
+                "    \"email\": \""+data.dt().getEmail()+"\",\n" +
+                "    \"phoneNumber\": \""+data.dt().getPhoneNumber()+"\",\n" +
+                "    \"idNumber\": \""+data.dt().getIdNumber()+"\",\n" +
+                "    \"address\": \""+data.dt().getAddress()+"\",\n" +
+                "    \"customerId\": \""+data.dt().getCustomerId()+"\",\n" +
+                "    \"sapCustomerId\": \""+data.dt().getSapCustomerId()+"\",\n" +
+                "    \"vehicleId\": \""+data.dt().getVehicleId()+"\",\n" +
+                "    \"vehicleType\": \""+data.dt().getVehicleType()+"\",\n" +
+                "    \"vehicleModel\": \""+data.dt().getVehicleModel()+"\",\n" +
                 "    \"batteries\": [\n" +
                 "        {\n" +
-                "            \"serial\": \"RLLV5AFA5NV000911\",\n" +
-                "            \"stock\": \"RLLV5AFA5NV000911\",\n" +
-                "            \"capacity\": \"500\",\n" +
-                "            \"type\": \"0\",\n" +
-                "            \"status\": \"1\",\n" +
-                "            \"enabled\": true\n" +
+                "            \"serial\": \""+data.dt().getSerialbaterry()+"\",\n" +
+                "            \"stock\": \""+data.dt().getStockbaterry()+"\",\n" +
+                "            \"capacity\": \""+data.dt().getCapacitybaterry()+"\",\n" +
+                "            \"type\": \""+data.dt().getTypebaterry()+"\",\n" +
+                "            \"status\": \""+data.dt().getStatusbaterry()+"\",\n" +
+                "            \"enabled\": "+data.dt().getEnabledbaterry()+"\n" +
                 "        }\n" +
                 "    ],\n" +
-                "    \"taxRegistrationNumber\": \"RLLV5AFA5NV000911\",\n" +
-                "    \"taxRegistrationName\": \"RLLV5AFA5NV000911\",\n" +
-                "    \"enterpriseCustomer\": false,\n" +
-                "    \"status\": 1,\n" +
-                "    \"contractType\": 0\n" +
+                "    \"taxRegistrationNumber\": \""+data.dt().getTaxRegistrationNumber()+"\",\n" +
+                "    \"taxRegistrationName\": \""+data.dt().getTaxRegistrationName()+"\",\n" +
+                "    \"enterpriseCustomer\": "+data.dt().getEnterpriseCustomer()+",\n" +
+                "    \"status\": "+data.dt().getStatus()+",\n" +
+                "    \"contractType\": "+data.dt().getContractType()+"\n" +
                 "}";
 
         System.out.println("Send request: " + messsageRequest);

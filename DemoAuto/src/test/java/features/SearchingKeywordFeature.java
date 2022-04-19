@@ -1,7 +1,5 @@
 package features;
 
-
-import Webservice.WebserviceClient;
 import com.vin3s.auto.dataobject.SearchingKeywordObject;
 import com.vin3s.auto.serenity.UseTestDataFromExcel;
 import com.vin3s.auto.utils.CaseInsensitiveMapObjWrapper;
@@ -40,20 +38,9 @@ public class SearchingKeywordFeature extends SearchingKeywordObject {
 
     @Test
     public void SeachingKeywordFeatureSuscess(){
-        WebserviceClient client = new WebserviceClient();
-        qlgdStep.SendRequestAndGetResponseForeMSP(data);
-        //qhlgdStep.SearchingFunction(data);
+        qlgdStep.SearchingFunction(data);
 
     }
-
-    @Test
-    public void SeachingKeywordFeatureFail(){
-        WebserviceClient client = new WebserviceClient();
-        qlgdStep.SendRequestAndGetResponseForeMSP(data);
-        //qhlgdStep.SearchingFunction(data);
-
-    }
-
 
     @After
     public void tearDown() {
