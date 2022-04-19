@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="features.SearchingKeywordFeature" skipped="0" tests="1" time="6.17" timestamp="2022-04-06 02:31:00"><testcase classname="features.SearchingKeywordFeature" name="Seaching keyword feature suscess"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="features.SearchingKeywordFeature" skipped="0" tests="1" time="37.57" timestamp="2022-04-19 05:17:37"><testcase classname="features.SearchingKeywordFeature" name="Seaching keyword feature suscess"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'VIN3S-SONBN2-L', ip: '192.168.12.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'VIN3S-SONBN2-L', ip: '192.168.12.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIN3S-SONBN2-L', ip: '192.168.12.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIN3S-SONBN2-L', ip: '192.168.12.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIN3S-SONBN2-L', ip: '192.168.12.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIN3S-SONBN2-L', ip: '192.168.12.85', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown&#13;
+page.QuanlygiaodichPage.input_search_textfield(QuanlygiaodichPage.java:25)&#13;
+steps.QuanlygiaodichStep.Input_SearchString(QuanlygiaodichStep.java:61)&#13;
+steps.QuanlygiaodichStep.SearchingFunction(QuanlygiaodichStep.java:26)&#13;
+features.SearchingKeywordFeature.SeachingKeywordFeatureSuscess(SearchingKeywordFeature.java:41)&#13;
+</system-err></testcase></testsuite>

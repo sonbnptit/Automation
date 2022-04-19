@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="features.BatterryLeasingFeature" skipped="0" tests="1" time="5.62" timestamp="2022-04-08 05:20:15"><testcase classname="features.BatterryLeasingFeature" name="Send API baterry leasing create success"/></testsuite>

@@ -2,20 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7260d0b-ed3d-406c-b7a3-ccef6edaa5c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DemoAuto/driver/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoAuto/hs_err_pid12912.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoAuto/src/test/java/features/SearchingKeywordFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/src/test/java/features/SearchingKeywordFeature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/config/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/config/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/015f08bf8b1fd5ffb6017f680333b16802298e187baf1067bcee17a69be2aa41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/01adfb23a908cffe96ca7633ae0cc7866dcd2d372639bb5417ce3d97e92bbb26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/0ba41e9d7e8703a901acf1a870d20b9f78d5b1f72b302da9595ce5429b933613.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/1407341672c7b2bce890c6aa73c8ad5b5ab2dce124c11b50e37e088ce5d755b6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-03-22__162747_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-03-22__162747_SeachingKeywordFeatureSuscess_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-03-22__164904_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-03-22__164904_SeachingKeywordFeatureSuscess_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-01__163518_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-01__170639_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-01__170723_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__162752_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__173252_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__173411_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__173953_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__174025_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__174722_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__175754_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__175754_SeachingKeywordFeatureSuscess_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__180113_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__180113_SeachingKeywordFeatureSuscess_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__180219_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-03__180349_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__152340_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__153741_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__153943_SeachingKeywordFeatureFail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__153943_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__154349_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__154529_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__155357_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__155841_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-04__161205_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-05__083600_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-06__142922_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-06__143103_SeachingKeywordFeatureSuscess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-08__171437_SendAPIBaterryLeasingCreateSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-08__171735_SendAPIBaterryLeasingCreateSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-08__171919_SendAPIBaterryLeasingCreateSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2022-04-08__172017_SendAPIBaterryLeasingCreateSuccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/26625651d413f17ae848cd93395a1938034e6af1894020bfafb09e1915116bc1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/2a1ea27fdc37491fe1389cba9a75a21d0dac12b1e431ba0f16123786949aaff1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/36f4982b032bcade1faf6d654715f500307d4bccdd28651b52ae94a4a6dce3f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/5637b4249f234faefe783cba0bb5e209feb5626658f4b03feff6e1f3ecf203f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/93395e551d70670db7f816100ec68f91e1984eec90626f4f14571074f1c3577a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/9e62013c710d778984575a8a0029b25fc910eb6fba498810123e9c86139dee47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/SERENITY-JUNIT-feature.searchingkeywordfeature_seachingkeywordfeaturesuscess.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/SERENITY-JUNIT-features.batterryleasingfeature_sendapibaterryleasingcreatesuccess.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/SERENITY-JUNIT-features.searchingkeywordfeature_seachingkeywordfeaturesuscess.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/SERENITY-JUNIT-features.searchingkeywordfeature_seachingkeywordfeaturesuscess.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/ab1fcde6194ac1a975535b30165beb19c61d39e42ce601856721d8e090dbd0a1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/b6c064378b700f7cc53fb125f593b30cbf10ee4ce5f7b634555b3d8509b6aff3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/bebe34dbc622b4b39f4fc1a9f34b3ab63a069a41a5794a503f12d6ae4f98f68a.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/c1148bc840770c50ca960765bfb51ccd1aae7032a94091cb9b4b8aa2debf91fe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/cb18e12e49d36a56a70c2c87820819b951d9e5ebec92dfed2945ea684ebbc8d4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/db443561128fc871219681972c324a647a0dc426ee1aa19a8676393417561e03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/e3722d253f60663594512e8996b30fc24469c7789a3d44cab720b9d650226168.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/e445c854e3a4d99a44e67263d7bc5331cb839a6e357d6496c096bf79008bae3e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/feature.searchingkeywordfeature_seachingkeywordfeaturefail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/feature.searchingkeywordfeature_seachingkeywordfeaturesuscess.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/features.batterryleasingfeature_sendapibaterryleasingcreatesuccess.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/features.batterryleasingfeature_sendapibaterryleasingcreatesuccess.jsona662ad62-0a76-4081-bf1d-d77c74ee27a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/features.searchingkeywordfeature_seachingkeywordfeaturesuscess.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/features.searchingkeywordfeature_seachingkeywordfeaturesuscess.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/flow/serenity.configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/flow/serenity.configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/test-classes/META-INF/DemoAuto.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/test-classes/Webservice/WebserviceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/target/test-classes/Webservice/WebserviceClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/test-classes/features/SearchingKeywordFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/target/test-classes/features/SearchingKeywordFeature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/test-classes/steps/QuanlygiaodichStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoAuto/target/test-classes/steps/QuanlygiaodichStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/pagesource2546606910503325520.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/pagesource4167632708363143262.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/pagesource7038174865505961025.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoAuto/target/site/serenity/pagesource8673329007367374303.html.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SerenityFWVin3s.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vin3s/auto/subprocess/webservice/SoapClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vin3s/auto/subprocess/webservice/SoapClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/vin3s/auto/utils/Commons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vin3s/auto/utils/Commons.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../DemoAuto/target/" />
@@ -26,7 +86,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DemoAuto/serenity.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../DemoAuto/src/test/java/features/SearchingKeywordFeature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -35,10 +114,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../DemoAuto/src/test/java/features/SearchingKeywordFeature.java" />
+        <option value="$PROJECT_DIR$/../DemoAuto/serenity.properties" />
+        <option value="$PROJECT_DIR$/../DemoAuto/pom.xml" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="nonRecursive" value="true" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -57,7 +144,9 @@
     <option name="width" value="1400" />
     <option name="height" value="959" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -65,13 +154,57 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoAuto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650359884236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650363783742" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoAuto/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -127,11 +260,21 @@
     <history-entry file="SearchingKeywordFeature - 2022.04.16 at 12h 21m 20s.xml">
       <configuration name="SearchingKeywordFeature" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SearchingKeywordFeature - 2022.04.19 at 17h 04m 39s.xml">
+      <configuration name="SearchingKeywordFeature" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchingKeywordFeature - 2022.04.19 at 17h 15m 43s.xml">
+      <configuration name="SearchingKeywordFeature" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchingKeywordFeature - 2022.04.19 at 17h 17m 40s.xml">
+      <configuration name="SearchingKeywordFeature" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29051173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29051173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -140,7 +283,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -153,11 +296,24 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.14232409" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.14232409" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+        <item name="DemoAuto" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="SerenityFWVin3s" type="b2602c69:ProjectViewProjectNode" />
+        <item name="SerenityFW" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vin3s/auto/subprocess/web/WebElementController.java">
@@ -206,13 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DemoAuto/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DemoAuto/src/test/resources/eMsp_Login_vn.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -258,12 +407,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DemoAuto/src/test/java/features/SearchingKeywordFeature.java">
+    <entry file="file://$PROJECT_DIR$/../DemoAuto/src/test/java/features/BatterryLeasingFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="217">
+          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vin3s/auto/utils/CaseInsensitiveMapObjWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoAuto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoAuto/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DemoAuto/src/test/java/features/SearchingKeywordFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" selection-start-line="18" selection-end-line="21" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DemoAuto</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
