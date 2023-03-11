@@ -8,7 +8,9 @@ import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
 import page.EmspLoginPage;
 
-public class EmspLoginStep extends CommonScenarioSteps {
+public class
+
+EmspLoginStep extends CommonScenarioSteps {
 
     @Page
     EmspLoginPage loginPage;

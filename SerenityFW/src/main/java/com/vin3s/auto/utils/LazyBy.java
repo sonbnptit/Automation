@@ -21,4 +21,15 @@ public class LazyBy implements Supplier<By> {
     }
 
 
+    public By by() {
+        String comByStr = compiler.compileWithProperties(byStr);
+        return WebElementController.getBy(comByStr);
+    }
+
+    public By by(String... params) {
+        String comByStr = compiler.compileWithPropertiesParams(byStr, params);
+        return WebElementController.getBy(comByStr);
+    }
+
+
 }

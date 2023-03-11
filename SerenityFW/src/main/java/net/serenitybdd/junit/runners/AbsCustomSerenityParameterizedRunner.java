@@ -1,5 +1,10 @@
 package net.serenitybdd.junit.runners;
 
+
+import com.vin3s.auto.utils.Commons;
+import com.vin3s.auto.utils.ConfigController;
+import com.vin3s.auto.utils.Constants;
+import com.vin3s.auto.utils.GlobalVariable;
 import com.vin3s.auto.utils.Commons;
 import com.vin3s.auto.utils.ConfigController;
 import com.vin3s.auto.utils.Constants;
@@ -12,15 +17,23 @@ import net.thucydides.core.util.JUnitAdapter;
 import net.thucydides.core.webdriver.DriverConfiguration;
 import net.thucydides.core.webdriver.WebDriverFactory;
 import org.apache.commons.lang3.reflect.FieldUtils;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.junit.runner.Runner;
 import org.junit.runner.notification.RunNotifier;
+import org.junit.runners.model.FrameworkMethod;
 
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public abstract class AbsCustomSerenityParameterizedRunner extends SerenityParameterizedRunner {
-    public static boolean isBootstrapFinished = false;
 
     protected DriverConfiguration configuration;
 
@@ -53,8 +66,8 @@ public abstract class AbsCustomSerenityParameterizedRunner extends SerenityParam
 
         Commons.getLogger().debug("Started test");
         //run bootstrap script
-        if(isBootstrapFinished) {
-            isBootstrapFinished = CommonRunnerFeatures.runBootstrapScript();
+        if(!GlobalVariable.isBootstrapFinished) {
+            GlobalVariable.isBootstrapFinished = CommonRunnerFeatures.runBootstrapScript();
         }
     }
 
@@ -136,44 +149,47 @@ public abstract class AbsCustomSerenityParameterizedRunner extends SerenityParam
     @Override
     public void run(RunNotifier notifier){
         super.run(notifier);
+
         ConfigController cc = new ConfigController();
         String propRenameReport = cc.getProperty(Constants.IS_RENAME_REPORT);
         boolean isRenameReport = !Commons.isBlankOrEmpty(propRenameReport) && "Y".equalsIgnoreCase(propRenameReport);
+
         String propOnePageReport = cc.getProperty(Constants.IS_CREATE_ONE_PAGE_REPORT);
+        String propPdfReport = cc.getProperty(Constants.IS_CREATE_PDF_REPORT);
+        String propJSONReport = cc.getProperty(Constants.IS_CREATE_JSON_REPORT);
+
         boolean isOnePageReport = !Commons.isBlankOrEmpty(propOnePageReport) && "Y".equalsIgnoreCase(propOnePageReport);
-        if(isOnePageReport) {
+        boolean isPdfReport = !Commons.isBlankOrEmpty(propPdfReport) && "Y".equalsIgnoreCase(propPdfReport);
+        boolean isJSONReport = !Commons.isBlankOrEmpty(propJSONReport) && "Y".equalsIgnoreCase(propJSONReport);
+        if(isOnePageReport){
             //create one page report and rename if need
-            createOnePageReport(isRenameReport);
+            createOnePageReport(isRenameReport, isPdfReport);
+        }else{
+            if(isRenameReport){
+                //rename report only
+                renameReport();
+            }
         }
-//        }else{
-//            if(isRenameReport){
-//                //rename report only
-//                //renameReport();
-//            }
-//        }
 
+        if (isJSONReport){
+            JSONReport();
+        }
     }
 
-//    protected void renameReport(){
-//        List<TestOutcome> testOutcomes = ParameterizedTestsOutcomeAggregator.from(this).aggregateTestOutcomesByTestMethods();
-//        CommonRunnerFeatures.doRenameReport(configuration, testOutcomes);
-//    }
-
-//    protected void createOnePageReport(boolean isRenameReport, boolean isPdfReport){
-//        List<TestOutcome> testOutcomes = ParameterizedTestsOutcomeAggregator.from(this).aggregateTestOutcomesByTestMethods();
-//
-//        CommonRunnerFeatures.doCreateOnePageReport(configuration, testOutcomes, isRenameReport);
-//    }
-    protected void createOnePageReport(boolean isRenameReport ){
+    protected void renameReport(){
         List<TestOutcome> testOutcomes = ParameterizedTestsOutcomeAggregator.from(this).aggregateTestOutcomesByTestMethods();
-        CommonRunnerFeatures.doCreateOnePageReport(configuration, testOutcomes, isRenameReport);
+        CommonRunnerFeatures.doRenameReport(configuration, testOutcomes);
     }
 
-//    protected void JSONReport(){
-//        List<TestOutcome> testOutcomes = ParameterizedTestsOutcomeAggregator.from(this).aggregateTestOutcomesByTestMethods();
-//        CommonRunnerFeatures.doJSONReport(configuration, testOutcomes);
-//    }
+    protected void createOnePageReport(boolean isRenameReport, boolean isPdfReport){
+        List<TestOutcome> testOutcomes = ParameterizedTestsOutcomeAggregator.from(this).aggregateTestOutcomesByTestMethods();
 
+        CommonRunnerFeatures.doCreateOnePageReport(configuration, testOutcomes, isRenameReport, isPdfReport);
+    }
+
+    protected void JSONReport(){
+        List<TestOutcome> testOutcomes = ParameterizedTestsOutcomeAggregator.from(this).aggregateTestOutcomesByTestMethods();
+        CommonRunnerFeatures.doJSONReport(configuration, testOutcomes);
+    }
 
 }
-

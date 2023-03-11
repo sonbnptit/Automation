@@ -21,7 +21,6 @@ public class WebserviceClient extends CommonScenarioSteps {
         try {
             JSONObject response = soapClient.AccessTokenforeMSP(url,message, "POST","other");
             //System.out.println("Response token: "+response.toString());
-
             return response.getString("access_token");
         }catch (Exception e){
             e.printStackTrace();
@@ -61,7 +60,7 @@ public class WebserviceClient extends CommonScenarioSteps {
                 "    \"contractType\": "+data.dt().getContractType()+"\n" +
                 "}";
 
-        System.out.println("Send request: " + messsageRequest);
+        System.out.println("Send request: \n" + messsageRequest);
         String token = getAccessToken();
         SoapClient soapClient = new SoapClient();
         try {
@@ -74,7 +73,4 @@ public class WebserviceClient extends CommonScenarioSteps {
             e.printStackTrace();
         }
     }
-
-
-
 }

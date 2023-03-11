@@ -36,7 +36,6 @@ public class QuanlygiaodichStep extends CommonScenarioSteps {
 
     @Step("Click button Quan ly giao dich: ")
     public void Click_QuanlyGiaodich_Button(){
-
         qlgdPage.click_Quanlygiaodich_btn();
 
     }

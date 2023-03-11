@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="features.DemoBlazeFeature" skipped="0" tests="1" time="7.91" timestamp="2023-03-05 09:27:02"><testcase classname="features.DemoBlazeFeature" name="Test device"><failure message="expected:&lt;$360[ *includes tax]&gt; but was:&lt;$360[]&gt;" type="java.lang.AssertionError">expected:&lt;$360[ *includes tax]&gt; but was:&lt;$360[]&gt;</failure><system-err>expected:&lt;$360[ *includes tax]&gt; but was:&lt;$360[]&gt;&#13;
+steps.DemoBlazeStep.ComparePriceProduct(DemoBlazeStep.java:39)&#13;
+features.DemoBlazeFeature.CompareInformationDevice(DemoBlazeFeature.java:49)&#13;
+features.DemoBlazeFeature.TestDevice(DemoBlazeFeature.java:41)&#13;
+</system-err></testcase></testsuite>
